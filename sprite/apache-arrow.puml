@@ -193,7 +193,7 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 }
 
-!define apache_arrow(_alias) ENTITY(rectangle,white,arrow16,_alias,apache_arrow)
+!define apache_arrow(_alias) ENTITY(rectangle,black,arrow16,_alias,apache_arrow)
 !define apache_arrow(_alias, _label) ENTITY(rectangle,black,arrow16,_label, _alias,apache_arrow)
 !define apache_arrow(_alias, _label, _shape) ENTITY(_shape,black,arrow16,_label, _alias,apache_arrow)
 !define apache_arrow(_alias, _label, _shape, _color) ENTITY(_shape,_color,arrow16,_label, _alias,apache_arrow)
