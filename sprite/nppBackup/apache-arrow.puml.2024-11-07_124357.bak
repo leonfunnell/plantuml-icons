@@ -1,6 +1,6 @@
 @startuml
 
-sprite $arrow4 [87x100/4] {
+sprite $arrow [87x100/4] {
 __________________________________________-z-__________________________________________
 _____________________________________-yqmG000Gmqy-_____________________________________
 ________________________________zyqWG0000000000000GWqyz________________________________
@@ -37,7 +37,7 @@ ________________________________________lVB7BV__________________________________
 mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 }
 
-sprite $arrow8 [87x100/8] {
+sprite $arrow [87x100/8] {
 _______________________________________________________________________________________
 ________________________________________-weOew-________________________________________
 _____________________________________ynO8000008Ony_____________________________________
@@ -90,7 +90,7 @@ ________________________________________lN435Nt_________________________________
 _______________________________________________________________________________________
 }
 
-sprite $arrow16 [87x100/16] {
+sprite $arrow [87x100/16] {
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA6AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
@@ -193,9 +193,9 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 }
 
-!define apache_arrow(_alias) ENTITY(rectangle,black,arrow16,_alias,apache_arrow)
-!define apache_arrow(_alias, _label) ENTITY(rectangle,black,arrow16,_label, _alias,apache_arrow)
-!define apache_arrow(_alias, _label, _shape) ENTITY(_shape,black,arrow16,_label, _alias,apache_arrow)
-!define apache_arrow(_alias, _label, _shape, _color) ENTITY(_shape,_color,arrow16,_label, _alias,apache_arrow)
+!define apache_arrow(_alias) ENTITY(rectangle,black,dd16,_alias,apache_arrow)
+!define apache_arrow(_alias, _label) ENTITY(rectangle,black,dd16,_label, _alias,apache_arrow)
+!define apache_arrow(_alias, _label, _shape) ENTITY(_shape,black,dd16,_label, _alias,apache_arrow)
+!define apache_arrow(_alias, _label, _shape, _color) ENTITY(_shape,_color,dd16,_label, _alias,apache_arrow)
 skinparam folderBackgroundColor<<apache_arrow>> White
 @enduml
