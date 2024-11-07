@@ -103,7 +103,7 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 }
 
 !define DREMIO(_alias) ENTITY(rectangle,white,drm16,_alias,DREMIO)
-!define DREMIO(_alias, _label) ENTITY(rectangle,white,drm16,_label, _alias,DREMIO)
+!define DREMIO(_alias, _label) ENTITY(rectangle,black,drm16,_label, _alias,DREMIO)
 !define DREMIO(_alias, _label, _shape) ENTITY(_shape,black,drm16,_label, _alias,DREMIO)
 !define DREMIO(_alias, _label, _shape, _color) ENTITY(_shape,_color,drm16,_label, _alias,DREMIO)
 @enduml
